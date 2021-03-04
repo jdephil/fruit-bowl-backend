@@ -1,9 +1,45 @@
 [
     {
-        "title": "",
-        "category": "",
-        "url": "", 
-        "urlTitle": ""
+        "title": "Wondering about birth control gel?",
+        "category": "Relational Health",
+        "url": "https://www.refinery29.com/en-us/2021/03/10341291/phexxi-birth-control-gel-ad", 
+        "urlTitle": "New Phexxi Birth Control"
+    },
+    {
+        "title": "Mellow Movements for Mind-Body Balance",
+        "category": "Fitness",
+        "url": "https://goop.com/wellness/fitness/low-impact-workouts-for-mind-body-balance/", 
+        "urlTitle": "Mellow Movements for Mind-Body Balance"
+    },
+    {
+        "title": "What makes you bloated?",
+        "category": "Nutrition",
+        "url": "https://goop.com/wellness/health/why-am-i-bloated/", 
+        "urlTitle": "Why Am I Bloated?"
+    },
+    {
+        "title": "Instead of watching what you eat, watch when you eat",
+        "category": "Nutrition",
+        "url": "https://www.popsugar.com/fitness/How-Track-Intermittent-Fasting-45548086", 
+        "urlTitle": "Reasons to Try Intermittent Fasting"
+    },
+    {
+        "title": "Sing in the shower today",
+        "category": "Mental Health",
+        "url": "https://www.healthline.com/health/benefits-of-singing#benefits", 
+        "urlTitle": "Benefits of Singing"
+    },
+    {
+        "title": "Take 3 deep breaths today",
+        "category": "Mental Health",
+        "url": "https://www.briefmindfulness.com/3-breaths/", 
+        "urlTitle": "How 3 Breaths Make a Difference"
+    },
+    {
+        "title": "Do a power pose!",
+        "category": "Mental Health",
+        "url": "https://www.forbes.com/sites/kimelsesser/2018/04/03/power-posing-is-back-amy-cuddy-successfully-refutes-criticism/?sh=4e19d1bc3b8e", 
+        "urlTitle": "Power Posing is Back"
     },
     {
         "title": "",
@@ -262,41 +298,5 @@
         "category": "",
         "url": "", 
         "urlTitle": ""
-    },
-    {
-        "title": "",
-        "category": "",
-        "url": "", 
-        "urlTitle": ""
-    },
-    {
-        "title": "",
-        "category": "",
-        "url": "", 
-        "urlTitle": ""
-    },
-    {
-        "title": "",
-        "category": "",
-        "url": "", 
-        "urlTitle": ""
-    },
-    {
-        "title": "",
-        "category": "",
-        "url": "", 
-        "urlTitle": ""
-    },
-    {
-        "title": "",
-        "category": "",
-        "url": "", 
-        "urlTitle": ""
-    },
-    {
-        "title": "",
-        "category": "",
-        "url": "", 
-        "urlTitle": ""
-    },
+    }
 ]
