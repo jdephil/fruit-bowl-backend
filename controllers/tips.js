@@ -4,7 +4,7 @@ const router = express.Router();
 const Tip = require('../models/tip');
 
 router.get('/', (req, res, next) => {
-	Tip.find()
+	Tip.findAll()
 		.then((tips) => res.json(tips))
 		.catch(next);
 });
