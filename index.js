@@ -6,7 +6,6 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 // app.use(cors());
 
-
 // CONTROLLERS //
 
 const tipControllers = require('./controllers/tips');
@@ -15,9 +14,8 @@ app.use('/api/tips', tipControllers);
 // END CONTROLLERS //
 
 // const port = process.env.PORT || 8001;
-app.set('port', process.env.PORT || 8001)
-
+app.set('port', process.env.PORT || 8001);
 
 app.listen(app.get('port'), () => {
-	console.log(`Fruitbowl-backend is running on port ${port}`);
+	console.log(`Fruitbowl-backend is running on port ${app.get('port')}`);
 });
