@@ -8,10 +8,6 @@ app.use(express.urlencoded({ extended: true }));
 
 // CONTROLLERS //
 
-app.get('/', (req, res) => {
-	res.redirect('/api/fruitbowl-backend');
-})
-
 const tipControllers = require('./controllers/tips');
 app.use('/api/tips', tipControllers);
 
