@@ -12,8 +12,8 @@ app.get('/', (req, res) => {
 
 // CONTROLLERS //
 
-const tipControllers = require('./controllers/tips');
-app.use('/api/tips', tipControllers);
+const tipsController = require('./controllers/tips');
+app.use('/api/tips', tipsController);
 
 // END CONTROLLERS //
 
