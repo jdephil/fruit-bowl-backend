@@ -6,6 +6,10 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 // app.use(cors());
 
+app.get('/', (req, res) => {
+	res.redirect('/api/tips');
+});
+
 // CONTROLLERS //
 
 const tipControllers = require('./controllers/tips');
