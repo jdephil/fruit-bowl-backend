@@ -7,7 +7,7 @@
     },
     {
         "title": "Mellow Movements for Mind-Body Balance",
-        "category": "Fitness",
+        "category": "Physical Fitness",
         "url": "https://goop.com/wellness/fitness/low-impact-workouts-for-mind-body-balance/", 
         "urlTitle": "Mellow Movements for Mind-Body Balance"
     },
@@ -43,7 +43,7 @@
     },
     {
         "title": "Get some movement in 6 minutes",
-        "category": "Fitness",
+        "category": "Physical Fitness",
         "url": "https://www.nytimes.com/2020/02/18/well/move/in-6-minutes-you-can-be-done-with-your-workout.html?action=click&pgtype=Article&state=default&module=styln-well-fitness&region=BELOW_MAIN_CONTENT&context=styln-fitness-guide", 
         "urlTitle": "6 Minute Workout"
     },
@@ -84,40 +84,40 @@
         "urlTitle": "A Phone Call Can Relieve Anxiety and Depression in Lockdown"
     },
     {
-        "title": "",
-        "category": "",
-        "url": "", 
-        "urlTitle": ""
+        "title": "Don't skip a mammogram!",
+        "category": "Physical Fitness",
+        "url": "https://www.healthline.com/health-news/why-skipping-even-one-mammogram-can-be-dangerous-for-your-health", 
+        "urlTitle": "Why Skipping a Mammogram can be Dangerous"
     },
     {
-        "title": "",
-        "category": "",
-        "url": "", 
-        "urlTitle": ""
+        "title": "Eat your fruits and veggies",
+        "category": "Nutrition",
+        "url": "https://www.healthline.com/health-news/how-the-5-a-day-of-fruits-and-vegetables-improves-your-health", 
+        "urlTitle": "5-a-day-mix to Improve Your Health"
     },
     {
-        "title": "",
-        "category": "",
-        "url": "", 
-        "urlTitle": ""
+        "title": "Know the facts about nutrition",
+        "category": "Nutrition",
+        "url": "https://www.healthline.com/nutrition/biggest-lies-of-nutrition", 
+        "urlTitle": "Top 20 Biggest Nutrition Myths"
     },
     {
-        "title": "",
-        "category": "",
-        "url": "", 
-        "urlTitle": ""
+        "title": "Feeling sluggish? Try a banana",
+        "category": "Nutrition",
+        "url": "https://www.healthline.com/nutrition/energy-boosting-foods", 
+        "urlTitle": "27 Foods That Can Give You More Energy"
     },
     {
-        "title": "",
-        "category": "",
-        "url": "", 
-        "urlTitle": ""
+        "title": "Meditation and relaxation",
+        "category": "Mental Health",
+        "url": "https://www.healthline.com/health/depression/mental-fitness#mindbody-connection", 
+        "urlTitle": "The Importance of Mental Fitness"
     },
     {
-        "title": "",
-        "category": "",
-        "url": "", 
-        "urlTitle": ""
+        "title": "Pace yourself and find your 'why'",
+        "category": "Physical Fitness",
+        "url": "https://www.self.com/story/fitness-tips-trainers-give-beginner-clients", 
+        "urlTitle": "18 Fitness Tips For Beginners"
     },
     {
         "title": "",
