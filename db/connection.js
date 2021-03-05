@@ -17,4 +17,4 @@ mongoose
 	)
 	.catch(console.error);
 
-module.exports = mongoose
+module.exports = mongoose;
