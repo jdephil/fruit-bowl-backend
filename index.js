@@ -18,6 +18,7 @@ app.use('/api/tips', tipsController);
 // END CONTROLLERS //
 
 // const port = process.env.PORT || 8001;
+
 app.set('port', process.env.PORT || 8001);
 
 app.listen(app.get('port'), () => {

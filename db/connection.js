@@ -1,9 +1,11 @@
 const mongoose = require('mongoose');
 
-const mongoURI =
-	process.env.NODE_ENV === 'production'
-		? process.env.DB_URL
-		: 'mongodb://localhost/fruitbowl-backend';
+// const mongoURI =
+// 	process.env.NODE_ENV === 'production'
+// 		? process.env.DB_URL
+// 		: 'mongodb://localhost/fruitbowl-backend';
+
+const mongoURI = process.env.DB_URL
 
 mongoose
 	.connect(mongoURI, {
