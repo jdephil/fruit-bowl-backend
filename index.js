@@ -6,9 +6,9 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors());
 
-app.get('/', (req, res) => {
-	res.redirect('/api/tips');
-});
+// app.get('/', (req, res) => {
+// 	res.redirect('/api/tips');
+// });
 
 // CONTROLLERS //
 
