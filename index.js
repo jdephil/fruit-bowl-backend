@@ -5,6 +5,7 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors());
+app.disable('etag');
 
 // app.get('/', (req, res) => {
 // 	res.redirect('/api/tips');
