@@ -12,8 +12,10 @@ Welcome to the backend side of our Fruitbowl application! We wanted to create ou
 - Heroku for deployment
 
 ---
+
+## Simple Schema:
+
+![Schema](schema-pic.png)
 ## Use and Contribution:
 
-To find the frontend repo head [here](https://github.com/jdephil/fruit-bowl-frontend). 
-
-PLACEHOLDER!
+To find the frontend repo head [here](https://github.com/jdephil/fruit-bowl-frontend). For further use please fork and clone, followed by a pull request.
