@@ -10,10 +10,13 @@ app.get('/', (req, res) => {
 	res.redirect('/api/tips');
 });
 
+
 // CONTROLLERS //
 
 const tipsController = require('./controllers/tips');
+const favoritesController = require('./controllers/favorites')
 app.use('/api/tips', tipsController);
+app.use('/api/favorites', favoritesController)
 
 // END CONTROLLERS //
 

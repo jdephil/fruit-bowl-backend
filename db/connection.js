@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const mongoURI =
 	process.env.NODE_ENV === 'production'
-		? process.env.DB_URL
+		? 'mongodb+srv://fruitbowl:jfTDldM9JoKZucZf@cluster0.0zn9i.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
 		: 'mongodb://localhost/fruitbowl-backend';
 
 mongoose
