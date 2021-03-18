@@ -4,12 +4,12 @@ const mongoose = require('../db/connection')
 
 const Tip = require('../models/tip');
 
-router.post('/', async (req, res, next) => {
-	console.log("tip",Tip)
-	let faveQuery = []
-	for (let i = 0; i < req.body.length; i++) {
-		console.log(req.body[i])
-		console.log("to string", req.body[i].toString())
+router.post('/', (req, res, next) => {
+	// console.log("tip",Tip)
+	// let faveQuery = []
+	// for (let i = 0; i < req.body.length; i++) {
+	// 	console.log(req.body[i])
+	// 	console.log("to string", req.body[i].toString())
 		// let mongoId = mongoose.Types.ObjectId(req.body[i])
 		// faveQuery.push(mongoId)
 		// let faveTip = await Tip.find({
@@ -21,16 +21,17 @@ router.post('/', async (req, res, next) => {
 		// 		// '60464ee6b1ee8600040797e9'
 		// )
 
-		let faveTip = await Tip.find({
-			'_id': { $in: [
-					mongoose.Types.ObjectId('60464ee6b1ee8600040797df')
+	// 	let faveTip = await Tip.find({
+	// 		'_id': { $in: [
+	// 				mongoose.Types.ObjectId('60464ee6b1ee8600040797df')
 					
-			]}
-	});
-		console.log("faveTip", faveTip)
-		faveQuery.push(faveTip)
-	}
-	console.log("faveQuery", faveQuery)
+	// 		]}
+	// });
+	// 	console.log("faveTip", faveTip)
+	// 	faveQuery.push(faveTip)
+	// }
+	// console.log("faveQuery", faveQuery)
+
 	// console.log("favequery", faveQuery)
 	//console.log(req.body)
 	// for (var fave in req.body) {
@@ -41,12 +42,18 @@ router.post('/', async (req, res, next) => {
 		// }
 		// console.log(faveQuery)
 		// .then((tip) => 
-
-
-	res.status(201).json({tip: faveQuery})
+		Tip.find({
+			'_id': { $in: [
+					mongoose.Types.ObjectId('60464ee6b1ee8600040797f1'),
+					mongoose.Types.ObjectId('660464ee6b1ee8600040797db') 
+				]}
+			})
+			.then((tip) => 
+			res.status(201).json(tip)
+			)
+				.catch(next);
 	
-	//)
-	// .catch(next);
+
 });
 
 router.delete('/:id', (req, res, next) => {
